@@ -1,18 +1,24 @@
-# Getting Started
+# Programando em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+> *Curso: Bootcamp Java + Angular (Santander)*
+>
+> *Instituição: Dio - Digital Innovation One*
+>
+> *Mentor: Glaysson Sampaio*
 
-## Folder Structure
+## Desafio de Projeto: [Desafio.md](\bin\edu\dio\angular\java\desafios\DESAFIO.md)
 
-The workspace contains two folders by default, where:
+Projeto de programa com método de tratamento de exceções
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Documentação de aprendizagem: [Learn.md](/LEARN.MD)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+> Este arquivo integra a visão exclusiva do aluno em seus resumos, sem fins comerciais ou lucrativos, apenas para desenvolvimento acadêmico
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Atividades desenvolvidas
 
-## Dependency Management
+- Documentando funções e entendendo como funciona o JavaDoc API
+- Tratamento de exceções
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### LICENSE
+
+Copyright (c) 2023 Roberto Nóbrega Jr. ([@devrenj](https://www.github.com/devrenj)) under MIT License

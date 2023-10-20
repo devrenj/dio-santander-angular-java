@@ -1,6 +1,12 @@
-# Java + Angular Dio
+# Programando em Java
 
-## Professor: Glaysson Sampaio
+> *Curso: Bootcamp Java + Angular (Santander)*
+>
+> *Instituição: Dio - Digital Innovation One*
+>
+> *Mentor: Glaysson Sampaio*
+
+## Conceitos e resumos
 
 ### Como criar um pacote Java no VSCode
 
@@ -14,7 +20,7 @@ Este exemplo permite que ao mover um arquivo .java, o VSCode interprete automát
 
 ## Síntaxe e visão geral
 
-Java é uma linguagem multi-paradigmas, fortemente usado sob o paradigma de Orientação a Objetos, utilizando fortemente classes, métodos e visibilidade para conectar o programa. O conceito de objeto pode conter dados na forma de campos, também conhecidos como atributos e códigos, na forma de procedimentos, também conhecidos como métodos.
+Java é uma linguagem multi-paradigmas, fortemente usado sob o paradigma de Orientação a Objetos, utilizando classes, métodos e visibilidade para conectar o programa. O conceito de objeto pode conter `dados` na forma de `campos`, também conhecidos como `atributos` e `códigos`, na forma de `procedimentos`, também conhecidos como `métodos`.
 Cada pacote é uma parte modularizada do programa como um todo, esta construção faz parte dos pilares da linguagem, que são:
 
 - Encapsulamento: Nem tudo precisa estar visível, grande parte do nosso algoritmo pode ser distribuído em métodos, com finalidades específicas que complementam uma ação em nossa aplicação
@@ -24,9 +30,11 @@ Cada pacote é uma parte modularizada do programa como um todo, esta construçã
 
 ## Javadoc
 
-É um gerador de documentação criado pela Sun Microsystems, para documentar a API dos programas em  Java. O resultado é expresso em HTML.
+É um gerador de documentação criado pela Sun Microsystems, para documentar a API dos programas em  Java. O resultado é expresso em HTML. Comando executado no terminal:
 
-CLI :: `javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/*.java`
+```nodejs
+javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/*.java
+```
 
 ### Tratamento de exceção
 
@@ -52,10 +60,6 @@ O risco da exceção ser disparada e logo precisar tratá-la
 - Unchecked: A exceção acontece mas não é obrigatório ser tratado
 
 Referência e tipos de exceções: <https://glysns.gitbook.io/java-basico/controle-de-fluxo/estruturas-excepcionais>
-
-### Glossário
-
-CLI: Command Line Interface - Códigos executados no terminal
 
 ### Referências
 

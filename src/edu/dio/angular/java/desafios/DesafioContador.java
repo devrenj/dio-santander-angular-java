@@ -18,9 +18,12 @@ public class DesafioContador {
     Scanner terminal = new Scanner(System.in);
     int primeiraEntrada = 0;
     int segundaEntrada = 0;
+    boolean fluxo = false;
 
     // Recebendo as entradas do usuário 
-    try {
+    do {
+
+      try {
       System.out.println("Digite o primeiro número:");
       primeiraEntrada = terminal.nextInt();
 
@@ -30,17 +33,18 @@ public class DesafioContador {
       // Executando a função contar()
       try {
         contar(primeiraEntrada, segundaEntrada);
-        
+        fluxo = true;
         // Tratamento de exceção em caso do usuário digitar parâmetros inválidos, sejam eles negativos ou o primeiro parâmetro menor que o segundo parâmetro
         } catch (ParametrosInvalidosException e) {
           System.err.println("A contagem deve ser positiva! Digite o primeiro número menor que o segundo número.");
         }
     
     // Tratamento de exceção em caso do usuário digitar algo diferente de um número
-    } catch (InputMismatchException e) {
-      System.out.println("Digite apenas números!");
-    }
-
+  } catch (InputMismatchException e) {
+    System.out.println("Digite apenas números!");
+  }
+  
+} while(!fluxo);
       // Fechando o Scanner()
       terminal.close();
 
